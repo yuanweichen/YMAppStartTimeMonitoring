@@ -15,6 +15,7 @@
 		778F79392141033F006825D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 778F79382141033F006825D0 /* main.m */; };
 		778F79432141033F006825D0 /* YMAppStartTimeMonitoringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 778F79422141033F006825D0 /* YMAppStartTimeMonitoringTests.m */; };
 		778F794E2141033F006825D0 /* YMAppStartTimeMonitoringUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 778F794D2141033F006825D0 /* YMAppStartTimeMonitoringUITests.m */; };
+		778F795D21410686006825D0 /* YMStartTimeMonitoring.m in Sources */ = {isa = PBXBuildFile; fileRef = 778F795C21410686006825D0 /* YMStartTimeMonitoring.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		778F79492141033F006825D0 /* YMAppStartTimeMonitoringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMAppStartTimeMonitoringUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		778F794D2141033F006825D0 /* YMAppStartTimeMonitoringUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMAppStartTimeMonitoringUITests.m; sourceTree = "<group>"; };
 		778F794F2141033F006825D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		778F795B21410686006825D0 /* YMStartTimeMonitoring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMStartTimeMonitoring.h; sourceTree = "<group>"; };
+		778F795C21410686006825D0 /* YMStartTimeMonitoring.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMStartTimeMonitoring.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				778F792A21410335006825D0 /* AppDelegate.m */,
 				778F792C21410335006825D0 /* ViewController.h */,
 				778F792D21410335006825D0 /* ViewController.m */,
+				778F795B21410686006825D0 /* YMStartTimeMonitoring.h */,
+				778F795C21410686006825D0 /* YMStartTimeMonitoring.m */,
 				778F792F21410336006825D0 /* Main.storyboard */,
 				778F79322141033F006825D0 /* Assets.xcassets */,
 				778F79342141033F006825D0 /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 				778F792E21410335006825D0 /* ViewController.m in Sources */,
 				778F79392141033F006825D0 /* main.m in Sources */,
 				778F792B21410335006825D0 /* AppDelegate.m in Sources */,
+				778F795D21410686006825D0 /* YMStartTimeMonitoring.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

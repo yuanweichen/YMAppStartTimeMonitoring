@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "YMStartTimeMonitoring.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[YMStartTimeMonitoring sharedMonitoring] start];
+    [[YMStartTimeMonitoring sharedMonitoring] showInfoWithDescribe:@"初始化"];
+    [[YMStartTimeMonitoring sharedMonitoring] stop];
     return YES;
 }
 
